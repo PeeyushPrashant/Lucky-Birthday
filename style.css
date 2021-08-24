@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+*{
+    font-family: 'Nunito', sans-serif;
+    
+}
+body{
+  margin: 0rem;
+    
+}
+
+.heading{
+    max-width: 500px;
+    margin: auto;
+    
+}
+
+h1{
+    margin: 0rem ;
+    text-align: center;
+    background-color: #0e1e2b;
+    padding-top: 1rem;
+    height: 3.5rem;
+    vertical-align: middle;
+    color: #f3722c;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+
+
+.container{
+    margin: auto;
+    max-width: 500px;
+    margin-top: 10rem;
+    text-align: center;
+    padding-bottom: 30px;
+    border: 1px solid ;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 15px;
+    background-color: #0e1e2b;
+    color: #f3722c;
+}
+p{
+    color: #bfd200;
+    text-shadow: 1px 1px;
+}
+
+
+#date-of-birth,#lucky-number{
+    height: 2.5rem;
+    width: 11rem;
+    border: 2px solid #f3722c;
+    border-radius: 0.5rem;
+}
+
+ #check-btn{
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+   padding: 5px;
+   width: 5rem;
+   font-weight: 600;
+   color: #f3722c;
+   border-radius: 0.2rem;
+}
+
+#output{
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    color: #f3722c;
+}
